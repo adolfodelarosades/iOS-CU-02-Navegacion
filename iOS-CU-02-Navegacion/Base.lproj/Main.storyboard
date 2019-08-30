@@ -66,8 +66,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoE-tP-nZ5">
+                                <rect key="frame" x="96" y="170" width="229" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Navegar Tercer Pantalla">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tXK-HA-FnK" kind="show" identifier="irTercerPantalla" id="7FT-gv-K7u"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfC-4h-wSF">
-                                <rect key="frame" x="99" y="169" width="216" height="35"/>
+                                <rect key="frame" x="99" y="266" width="226" height="35"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Navegar Pantalla Anterior">
@@ -82,9 +93,12 @@
                         <constraints>
                             <constraint firstItem="ytH-4F-TF7" firstAttribute="leading" secondItem="JRi-fR-5kY" secondAttribute="leading" constant="96" id="0Zf-h2-Mbq"/>
                             <constraint firstItem="JRi-fR-5kY" firstAttribute="trailing" secondItem="ytH-4F-TF7" secondAttribute="trailing" constant="95" id="Ef2-XN-pdv"/>
-                            <constraint firstItem="JRi-fR-5kY" firstAttribute="trailing" secondItem="NfC-4h-wSF" secondAttribute="trailing" constant="99" id="Q0m-uV-zzK"/>
-                            <constraint firstItem="NfC-4h-wSF" firstAttribute="leading" secondItem="JRi-fR-5kY" secondAttribute="leading" constant="99" id="h6w-s6-afY"/>
-                            <constraint firstItem="NfC-4h-wSF" firstAttribute="top" secondItem="ytH-4F-TF7" secondAttribute="bottom" constant="50" id="ml5-Jz-AQ7"/>
+                            <constraint firstItem="JRi-fR-5kY" firstAttribute="trailing" secondItem="PoE-tP-nZ5" secondAttribute="trailing" constant="89" id="F32-dH-hFJ"/>
+                            <constraint firstItem="JRi-fR-5kY" firstAttribute="trailing" secondItem="NfC-4h-wSF" secondAttribute="trailing" constant="89" id="IPq-gj-0bJ"/>
+                            <constraint firstItem="PoE-tP-nZ5" firstAttribute="leading" secondItem="JRi-fR-5kY" secondAttribute="leading" constant="96" id="LYC-Vt-6Ch"/>
+                            <constraint firstItem="PoE-tP-nZ5" firstAttribute="top" secondItem="ytH-4F-TF7" secondAttribute="bottom" constant="51" id="OTH-jT-yzg"/>
+                            <constraint firstItem="NfC-4h-wSF" firstAttribute="leading" secondItem="JRi-fR-5kY" secondAttribute="leading" constant="99" id="dsf-06-f9A"/>
+                            <constraint firstItem="NfC-4h-wSF" firstAttribute="top" secondItem="PoE-tP-nZ5" secondAttribute="bottom" constant="61" id="oZW-1v-iRc"/>
                             <constraint firstItem="ytH-4F-TF7" firstAttribute="top" secondItem="JRi-fR-5kY" secondAttribute="top" constant="63" id="qrz-oX-zNK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JRi-fR-5kY"/>
@@ -92,7 +106,51 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBy-vk-mv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="138"/>
+            <point key="canvasLocation" x="924.63768115942037" y="136.95652173913044"/>
+        </scene>
+        <!--Tercer View Controller-->
+        <scene sceneID="p6b-0E-1eA">
+            <objects>
+                <viewController id="tXK-HA-FnK" customClass="TercerViewController" customModule="iOS_CU_02_Navegacion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ddl-OJ-3HJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tercer Pantalla" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5s-3X-l5Z">
+                                <rect key="frame" x="111" y="86" width="193" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rai-NE-raV">
+                                <rect key="frame" x="91" y="172" width="232" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Navegar Pantalla Anterior">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Regresar:" destination="tXK-HA-FnK" eventType="touchUpInside" id="szy-uB-j2m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f5s-3X-l5Z" firstAttribute="leading" secondItem="zLq-2b-10V" secondAttribute="leading" constant="111" id="2ri-ou-ekq"/>
+                            <constraint firstItem="Rai-NE-raV" firstAttribute="top" secondItem="f5s-3X-l5Z" secondAttribute="bottom" constant="50" id="4wT-lP-RFx"/>
+                            <constraint firstItem="f5s-3X-l5Z" firstAttribute="top" secondItem="zLq-2b-10V" secondAttribute="top" constant="66" id="P89-b0-b02"/>
+                            <constraint firstItem="zLq-2b-10V" firstAttribute="trailing" secondItem="Rai-NE-raV" secondAttribute="trailing" constant="91" id="edX-Qu-kdw"/>
+                            <constraint firstItem="Rai-NE-raV" firstAttribute="leading" secondItem="zLq-2b-10V" secondAttribute="leading" constant="91" id="j5F-Ce-27p"/>
+                            <constraint firstItem="zLq-2b-10V" firstAttribute="trailing" secondItem="f5s-3X-l5Z" secondAttribute="trailing" constant="110" id="qXY-S5-JQV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zLq-2b-10V"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jCS-Fb-j0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1626.0869565217392" y="136.95652173913044"/>
         </scene>
     </scenes>
 </document>

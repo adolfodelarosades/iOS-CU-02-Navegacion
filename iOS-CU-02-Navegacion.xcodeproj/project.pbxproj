@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B06AB523191D0200D5F5EA /* TercerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B06AB423191D0200D5F5EA /* TercerViewController.swift */; };
 		18B9E27023184CA60079727F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9E26F23184CA60079727F /* AppDelegate.swift */; };
 		18B9E27223184CA60079727F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9E27123184CA60079727F /* ViewController.swift */; };
 		18B9E27523184CA60079727F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B9E27323184CA60079727F /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B06AB423191D0200D5F5EA /* TercerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerViewController.swift; sourceTree = "<group>"; };
 		18B9E26C23184CA50079727F /* iOS-CU-02-Navegacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CU-02-Navegacion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B9E26F23184CA60079727F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18B9E27123184CA60079727F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		18B9E26E23184CA50079727F /* iOS-CU-02-Navegacion */ = {
 			isa = PBXGroup;
 			children = (
+				18B06AB423191D0200D5F5EA /* TercerViewController.swift */,
 				18B9E26F23184CA60079727F /* AppDelegate.swift */,
 				18B9E27123184CA60079727F /* ViewController.swift */,
 				18B9E27323184CA60079727F /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B9E27223184CA60079727F /* ViewController.swift in Sources */,
+				18B06AB523191D0200D5F5EA /* TercerViewController.swift in Sources */,
 				18B9E27023184CA60079727F /* AppDelegate.swift in Sources */,
 				18B9E28223184F740079727F /* SegundoViewController.swift in Sources */,
 			);
