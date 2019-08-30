@@ -16,4 +16,7 @@ class SegundoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func Regresar(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }

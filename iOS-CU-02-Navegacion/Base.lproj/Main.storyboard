@@ -66,12 +66,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfC-4h-wSF">
+                                <rect key="frame" x="99" y="169" width="216" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Navegar Pantalla Anterior">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Regresar:" destination="dat-lH-uJ4" eventType="touchUpInside" id="b7X-1d-TJa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ytH-4F-TF7" firstAttribute="leading" secondItem="JRi-fR-5kY" secondAttribute="leading" constant="96" id="0Zf-h2-Mbq"/>
                             <constraint firstItem="JRi-fR-5kY" firstAttribute="trailing" secondItem="ytH-4F-TF7" secondAttribute="trailing" constant="95" id="Ef2-XN-pdv"/>
-                            <constraint firstItem="JRi-fR-5kY" firstAttribute="bottom" secondItem="ytH-4F-TF7" secondAttribute="bottom" constant="617" id="SaT-q2-vXC"/>
+                            <constraint firstItem="JRi-fR-5kY" firstAttribute="trailing" secondItem="NfC-4h-wSF" secondAttribute="trailing" constant="99" id="Q0m-uV-zzK"/>
+                            <constraint firstItem="NfC-4h-wSF" firstAttribute="leading" secondItem="JRi-fR-5kY" secondAttribute="leading" constant="99" id="h6w-s6-afY"/>
+                            <constraint firstItem="NfC-4h-wSF" firstAttribute="top" secondItem="ytH-4F-TF7" secondAttribute="bottom" constant="50" id="ml5-Jz-AQ7"/>
                             <constraint firstItem="ytH-4F-TF7" firstAttribute="top" secondItem="JRi-fR-5kY" secondAttribute="top" constant="63" id="qrz-oX-zNK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JRi-fR-5kY"/>
