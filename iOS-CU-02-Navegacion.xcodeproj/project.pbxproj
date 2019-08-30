@@ -39,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B4B984231938BB000324AB /* NavegacionPorSegue */ = {
+			isa = PBXGroup;
+			children = (
+				18B06AB423191D0200D5F5EA /* TercerViewController.swift */,
+				18B9E27123184CA60079727F /* ViewController.swift */,
+				18B9E28123184F740079727F /* SegundoViewController.swift */,
+			);
+			path = NavegacionPorSegue;
+			sourceTree = "<group>";
+		};
 		18B9E26323184CA50079727F = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +68,12 @@
 		18B9E26E23184CA50079727F /* iOS-CU-02-Navegacion */ = {
 			isa = PBXGroup;
 			children = (
-				18B06AB423191D0200D5F5EA /* TercerViewController.swift */,
-				18B9E26F23184CA60079727F /* AppDelegate.swift */,
-				18B9E27123184CA60079727F /* ViewController.swift */,
 				18B9E27323184CA60079727F /* Main.storyboard */,
+				18B4B984231938BB000324AB /* NavegacionPorSegue */,
+				18B9E26F23184CA60079727F /* AppDelegate.swift */,
 				18B9E27623184CD00079727F /* Assets.xcassets */,
 				18B9E27823184CD00079727F /* LaunchScreen.storyboard */,
 				18B9E27B23184CD00079727F /* Info.plist */,
-				18B9E28123184F740079727F /* SegundoViewController.swift */,
 			);
 			path = "iOS-CU-02-Navegacion";
 			sourceTree = "<group>";
