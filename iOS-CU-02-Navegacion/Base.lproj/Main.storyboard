@@ -134,21 +134,36 @@
                                     <action selector="Regresar:" destination="tXK-HA-FnK" eventType="touchUpInside" id="szy-uB-j2m"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ych-Zr-u3w">
+                                <rect key="frame" x="91" y="276" width="232" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Navegar Pantalla Inicial">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GeW-tl-2YR" kind="unwind" unwindAction="regresarInicioWithSegue:" id="4oA-NC-TXf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="f5s-3X-l5Z" firstAttribute="leading" secondItem="zLq-2b-10V" secondAttribute="leading" constant="111" id="2ri-ou-ekq"/>
                             <constraint firstItem="Rai-NE-raV" firstAttribute="top" secondItem="f5s-3X-l5Z" secondAttribute="bottom" constant="50" id="4wT-lP-RFx"/>
+                            <constraint firstItem="zLq-2b-10V" firstAttribute="trailing" secondItem="Ych-Zr-u3w" secondAttribute="trailing" constant="91" id="EfI-oR-V7L"/>
+                            <constraint firstItem="Ych-Zr-u3w" firstAttribute="top" secondItem="Rai-NE-raV" secondAttribute="bottom" constant="69" id="OA0-XT-sQq"/>
                             <constraint firstItem="f5s-3X-l5Z" firstAttribute="top" secondItem="zLq-2b-10V" secondAttribute="top" constant="66" id="P89-b0-b02"/>
                             <constraint firstItem="zLq-2b-10V" firstAttribute="trailing" secondItem="Rai-NE-raV" secondAttribute="trailing" constant="91" id="edX-Qu-kdw"/>
                             <constraint firstItem="Rai-NE-raV" firstAttribute="leading" secondItem="zLq-2b-10V" secondAttribute="leading" constant="91" id="j5F-Ce-27p"/>
+                            <constraint firstItem="Ych-Zr-u3w" firstAttribute="leading" secondItem="zLq-2b-10V" secondAttribute="leading" constant="91" id="mbI-8r-6VP"/>
                             <constraint firstItem="zLq-2b-10V" firstAttribute="trailing" secondItem="f5s-3X-l5Z" secondAttribute="trailing" constant="110" id="qXY-S5-JQV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zLq-2b-10V"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCS-Fb-j0u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="GeW-tl-2YR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1626.0869565217392" y="136.95652173913044"/>
         </scene>
