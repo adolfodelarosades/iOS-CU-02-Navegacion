@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GpR-Pu-e3z">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Primer View Controller-->
+        <scene sceneID="86g-Vv-boO">
+            <objects>
+                <viewController id="GpR-Pu-e3z" customClass="NCPrimerViewController" customModule="iOS_CU_02_Navegacion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KmG-re-5d5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pantalla Inicial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXh-dx-AZ5">
+                                <rect key="frame" x="106" y="134" width="203" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjA-ii-NV4">
+                                <rect key="frame" x="94" y="245" width="227" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Regresar Pantalla Principal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="regresarPantallaPrincipal:" destination="GpR-Pu-e3z" eventType="touchUpInside" id="QwO-0I-o4b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wXh-dx-AZ5" firstAttribute="leading" secondItem="YE6-aK-n74" secondAttribute="leading" constant="106" id="Hhw-mN-Yz2"/>
+                            <constraint firstItem="wXh-dx-AZ5" firstAttribute="top" secondItem="YE6-aK-n74" secondAttribute="top" constant="90" id="eOF-zy-F5r"/>
+                            <constraint firstItem="kjA-ii-NV4" firstAttribute="top" secondItem="wXh-dx-AZ5" secondAttribute="bottom" constant="75" id="ewM-iu-nEZ"/>
+                            <constraint firstItem="YE6-aK-n74" firstAttribute="trailing" secondItem="wXh-dx-AZ5" secondAttribute="trailing" constant="105" id="gvG-5U-loP"/>
+                            <constraint firstItem="kjA-ii-NV4" firstAttribute="leading" secondItem="YE6-aK-n74" secondAttribute="leading" constant="94" id="tzh-PV-ozf"/>
+                            <constraint firstItem="YE6-aK-n74" firstAttribute="trailing" secondItem="kjA-ii-NV4" secondAttribute="trailing" constant="93" id="wsY-He-qIH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YE6-aK-n74"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QbF-uk-VKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-830.43478260869574" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+</document>

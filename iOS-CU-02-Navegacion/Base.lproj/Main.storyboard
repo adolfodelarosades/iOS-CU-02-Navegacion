@@ -35,6 +35,17 @@
                                 <color key="textColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1n-CS-FRF">
+                                <rect key="frame" x="83" y="265" width="248" height="35"/>
+                                <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Navigation Controller">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fGc-27-iEQ" kind="show" id="VZt-cp-A68"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -43,14 +54,25 @@
                             <constraint firstItem="ifQ-Fq-aHl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="AOF-8i-Gsw"/>
                             <constraint firstItem="ifQ-Fq-aHl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="ISU-lA-GZD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ifQ-Fq-aHl" secondAttribute="trailing" constant="106" id="Iym-h5-y9M"/>
+                            <constraint firstItem="m1n-CS-FRF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="N6u-zF-8wV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m1n-CS-FRF" secondAttribute="trailing" constant="83" id="e00-0O-vpP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TJg-sZ-vgG" secondAttribute="trailing" constant="83" id="sD9-Y9-bt4"/>
+                            <constraint firstItem="m1n-CS-FRF" firstAttribute="top" secondItem="TJg-sZ-vgG" secondAttribute="bottom" constant="64" id="uGM-BO-UhT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="179.71014492753625" y="137.94642857142856"/>
+            <point key="canvasLocation" x="179.71014492753625" y="137.77173913043478"/>
+        </scene>
+        <!--NavigationController-->
+        <scene sceneID="KTb-z4-u2q">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NavigationController" id="fGc-27-iEQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cap-x6-1kh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180" y="574"/>
         </scene>
         <!--Segundo View Controller-->
         <scene sceneID="GR6-9X-g5x">
