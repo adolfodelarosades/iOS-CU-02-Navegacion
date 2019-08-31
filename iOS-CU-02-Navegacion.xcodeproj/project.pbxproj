@@ -16,6 +16,8 @@
 		18B9E27723184CD00079727F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B9E27623184CD00079727F /* Assets.xcassets */; };
 		18B9E27A23184CD00079727F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B9E27823184CD00079727F /* LaunchScreen.storyboard */; };
 		18B9E28223184F740079727F /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9E28123184F740079727F /* SegundoViewController.swift */; };
+		18C52B9C231AAD0500206D19 /* TabBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C52B9B231AAD0500206D19 /* TabBarController.storyboard */; };
+		18C52B9E231AB4B300206D19 /* TBCPrimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C52B9D231AB4B300206D19 /* TBCPrimerViewController.swift */; };
 		18C65124231AA14200AEB810 /* NCTercerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C65123231AA14200AEB810 /* NCTercerViewController.swift */; };
 		18D6D4EB231A8E84009565FD /* NCSegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6D4EA231A8E84009565FD /* NCSegundoViewController.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +34,8 @@
 		18B9E27923184CD00079727F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B9E27B23184CD00079727F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B9E28123184F740079727F /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
+		18C52B9B231AAD0500206D19 /* TabBarController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarController.storyboard; sourceTree = "<group>"; };
+		18C52B9D231AB4B300206D19 /* TBCPrimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCPrimerViewController.swift; sourceTree = "<group>"; };
 		18C65123231AA14200AEB810 /* NCTercerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCTercerViewController.swift; sourceTree = "<group>"; };
 		18D6D4EA231A8E84009565FD /* NCSegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCSegundoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,8 +98,18 @@
 				18B9E27623184CD00079727F /* Assets.xcassets */,
 				18B9E27823184CD00079727F /* LaunchScreen.storyboard */,
 				18B9E27B23184CD00079727F /* Info.plist */,
+				18C52B9B231AAD0500206D19 /* TabBarController.storyboard */,
+				18C52B9F231AB4BD00206D19 /* NavegacionPorTabBarController */,
 			);
 			path = "iOS-CU-02-Navegacion";
+			sourceTree = "<group>";
+		};
+		18C52B9F231AB4BD00206D19 /* NavegacionPorTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				18C52B9D231AB4B300206D19 /* TBCPrimerViewController.swift */,
+			);
+			path = NavegacionPorTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +172,7 @@
 			files = (
 				18B9E27A23184CD00079727F /* LaunchScreen.storyboard in Resources */,
 				18B9E27723184CD00079727F /* Assets.xcassets in Resources */,
+				18C52B9C231AAD0500206D19 /* TabBarController.storyboard in Resources */,
 				18B55F8E231940240090BA08 /* NavigationController.storyboard in Resources */,
 				18B9E27523184CA60079727F /* Main.storyboard in Resources */,
 			);
@@ -177,6 +192,7 @@
 				18D6D4EB231A8E84009565FD /* NCSegundoViewController.swift in Sources */,
 				18B9E27023184CA60079727F /* AppDelegate.swift in Sources */,
 				18B9E28223184F740079727F /* SegundoViewController.swift in Sources */,
+				18C52B9E231AB4B300206D19 /* TBCPrimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -46,6 +46,17 @@
                                     <segue destination="fGc-27-iEQ" kind="show" id="VZt-cp-A68"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="86e-0V-Qqe">
+                                <rect key="frame" x="83" y="364" width="248" height="35"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Tab Bar Controller">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bXq-SK-DpS" kind="show" id="J7H-7N-zgM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -55,16 +66,19 @@
                             <constraint firstItem="ifQ-Fq-aHl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="ISU-lA-GZD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ifQ-Fq-aHl" secondAttribute="trailing" constant="106" id="Iym-h5-y9M"/>
                             <constraint firstItem="m1n-CS-FRF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="N6u-zF-8wV"/>
+                            <constraint firstItem="86e-0V-Qqe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="Sgz-XR-ys0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="86e-0V-Qqe" secondAttribute="trailing" constant="83" id="Uza-PO-tKv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m1n-CS-FRF" secondAttribute="trailing" constant="83" id="e00-0O-vpP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TJg-sZ-vgG" secondAttribute="trailing" constant="83" id="sD9-Y9-bt4"/>
                             <constraint firstItem="m1n-CS-FRF" firstAttribute="top" secondItem="TJg-sZ-vgG" secondAttribute="bottom" constant="64" id="uGM-BO-UhT"/>
+                            <constraint firstItem="86e-0V-Qqe" firstAttribute="top" secondItem="m1n-CS-FRF" secondAttribute="bottom" constant="64" id="x0S-Ck-Q0F"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="179.71014492753625" y="137.77173913043478"/>
+            <point key="canvasLocation" x="179.71014492753625" y="136.95652173913044"/>
         </scene>
         <!--NavigationController-->
         <scene sceneID="KTb-z4-u2q">
@@ -73,6 +87,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cap-x6-1kh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="180" y="574"/>
+        </scene>
+        <!--TabBarController-->
+        <scene sceneID="XWG-W3-0lI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TabBarController" id="bXq-SK-DpS" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LHb-j5-5EC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="574"/>
         </scene>
         <!--Segundo View Controller-->
         <scene sceneID="GR6-9X-g5x">
