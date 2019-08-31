@@ -16,7 +16,7 @@ class NCPrimerViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func regresarPantallaPrincipal(_ sender: UIButton) {
+    @IBAction func regresarMenu(_ sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
     }
     
