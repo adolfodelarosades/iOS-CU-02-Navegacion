@@ -47,10 +47,40 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="1fF-th-ifv"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Segunda Pantalla" id="FGv-TW-jQw">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="4Lq-Og-x0h">
+                            <connections>
+                                <segue destination="WdZ-Zj-ES6" kind="show" id="H5x-EU-Ptl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eeA-rR-l9M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="848" y="108"/>
+        </scene>
+        <!--Tercer Pantalla-->
+        <scene sceneID="NF8-hQ-ZJD">
+            <objects>
+                <viewController id="WdZ-Zj-ES6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uUo-wX-yJl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PlF-of-rVn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tercer Pantalla" id="hRg-bt-s8E">
+                        <barButtonItem key="rightBarButtonItem" title="Inicio" id="ucN-O5-waQ">
+                            <connections>
+                                <segue destination="07O-DM-Cri" kind="unwind" unwindAction="regresarInicioNCWithSegue:" id="lXc-8y-gl3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i1A-Pk-M4N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="07O-DM-Cri" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1588" y="108"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="k5X-XS-kqM">

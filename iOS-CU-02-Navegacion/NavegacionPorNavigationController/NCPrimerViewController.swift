@@ -20,4 +20,7 @@ class NCPrimerViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func regresarInicioNC( segue: UIStoryboardSegue ){
+        //Función vacía
+    }
 }

@@ -16,6 +16,7 @@
 		18B9E27723184CD00079727F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B9E27623184CD00079727F /* Assets.xcassets */; };
 		18B9E27A23184CD00079727F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B9E27823184CD00079727F /* LaunchScreen.storyboard */; };
 		18B9E28223184F740079727F /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9E28123184F740079727F /* SegundoViewController.swift */; };
+		18C65124231AA14200AEB810 /* NCTercerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C65123231AA14200AEB810 /* NCTercerViewController.swift */; };
 		18D6D4EB231A8E84009565FD /* NCSegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6D4EA231A8E84009565FD /* NCSegundoViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		18B9E27923184CD00079727F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B9E27B23184CD00079727F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B9E28123184F740079727F /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
+		18C65123231AA14200AEB810 /* NCTercerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCTercerViewController.swift; sourceTree = "<group>"; };
 		18D6D4EA231A8E84009565FD /* NCSegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCSegundoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		18B55F91231942250090BA08 /* NavegacionPorNavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				18C65123231AA14200AEB810 /* NCTercerViewController.swift */,
 				18B55F8F2319421C0090BA08 /* NCPrimerViewController.swift */,
 				18D6D4EA231A8E84009565FD /* NCSegundoViewController.swift */,
 			);
@@ -169,6 +172,7 @@
 			files = (
 				18B55F902319421C0090BA08 /* NCPrimerViewController.swift in Sources */,
 				18B9E27223184CA60079727F /* ViewController.swift in Sources */,
+				18C65124231AA14200AEB810 /* NCTercerViewController.swift in Sources */,
 				18B06AB523191D0200D5F5EA /* TercerViewController.swift in Sources */,
 				18D6D4EB231A8E84009565FD /* NCSegundoViewController.swift in Sources */,
 				18B9E27023184CA60079727F /* AppDelegate.swift in Sources */,
